@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/part1.css" />
+  <script src="https://kit.fontawesome.com/e220b45dfe.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div class="phone">
+    <div class="playlist">
+      <div class="playlist-head">
+        <div class="header">
+          <button id="button-back-playlist" title="back-to-menu">
+            <i class="fa-solid fa-arrow-left-long"></i>
+          </button>
+          <h2 class="title">Playlist</h2>
+          <button id="button-more-playlist" title="next-to-play">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+        <div class="album">
+          <h1 class="album-name">ManhLeoDZ</h1>
+        </div>
+      </div>
+      <div class="midder" id="style-3">
+
+      </div>
+    </div>
+    <div class="inner">
+      <div class="header">
+        <button id="button-back-song" title="back-to-album">
+          <i class="fa-solid fa-arrow-left-long"></i> </button>
+        <h2 class="title">ML mp3</h2>
+        <button id="button-more-song" title="menu">
+          <i class="fa-solid fa-list"></i>
+          <!-- <div class="nut_dropdown">Dropdown</div> -->
+          <div class="noidung_dropdown">
+            <a href="#">chịu chưa nghĩ ra</a>
+            <a href="#">có thể là setting</a>
+            <a href="#">hoặc có thể là account...</a>
+          </div>
+        </button>
+      </div>
+
+      <div class="cover" style="background-image: url(" ./assets/img/ngbth.jpg");">
+      </div>
+
+      <div class="info">
+        <h3 class="song">Ngu nghếch</h3>
+        <h4 class="artist">Mạnh Leo DZ</h4>
+      </div>
+
+      <div class="time">
+        <div class="bar"></div>
+      </div>
+
+      <div class="control">
+        <button class="button-prev" title="prev-song">
+          <i class="fa-solid fa-backward-step"></i>
+        </button>
+
+        <button class="play-button" title="play-song">
+          <i class="fas fa-play" id="play"></i>
+          <i class="fa-solid fa-pause" id="pause"></i>
+        </button>
+
+        <button class="button-next" title="next-song">
+          <i class="fa-solid fa-forward-step"></i>
+        </button>
+      </div>
+      <audio id="audio"></audio>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a target="_blank" href="https://dribbble.com/shots/8137871-Music-Player" title="infor">design by </a>
+  </div>
+  <script src="assets/js/part1.js"></script>
+
+</body>
+
+</html>
